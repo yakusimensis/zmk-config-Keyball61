@@ -31,10 +31,10 @@ layers:
   - F
   - G
   - H
-  - J
+  - '&mkp MB1'
   - K
-  - L
-  - {t: '-', s: _}
+  - '&mkp MB2'
+  - '&mkp MB3'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   - Z
@@ -44,8 +44,8 @@ layers:
   - B
   - PgDn
   - {t: CONTEXT MENU, h: NUM}
-  - {t: ',', s: <}
-  - N
+  - HOME
+  - END
   - M
   - {t: ., s: '>'}
   - {t: /, s: '?'}
