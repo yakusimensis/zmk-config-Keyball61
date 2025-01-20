@@ -60,7 +60,7 @@ layers:
   - $$mdi:keyboard-space$$
   - SYM
   - '@'
-  - FUN
+  - SCROLL
   NUM:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
@@ -80,9 +80,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+ F
-  - Ctl+ D
-  - Ctl+ Y
+  - Ctl+F
+  - Ctl+D
+  - Ctl+Y
   - {t: '[', s: '{'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -92,9 +92,9 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+ W
-  - Ctl+Sft+ T
-  - Ctl+ Z
+  - Ctl+W
+  - Ctl+Sft+T
+  - Ctl+Z
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -119,8 +119,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Gui+ $$mdi:keyboard-tab$$
-  - Ctl+Sft+ L
+  - Gui+$$mdi:keyboard-tab$$
+  - Ctl+Sft+L
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   SYM:
@@ -146,7 +146,7 @@ layers:
   - PgUp
   - $$mdi:arrow-up-bold$$
   - PgDn
-  - Ctl+ V
+  - Ctl+V
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
@@ -154,11 +154,11 @@ layers:
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Alt+ $$mdi:arrow-right-bold$$
+  - Alt+$$mdi:arrow-right-bold$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - Ctl+ C
+  - Ctl+C
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -168,11 +168,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Alt+ $$mdi:arrow-left-bold$$
-  - Ctl+ PgUp
-  - Ctl+ PgDn
+  - Alt+$$mdi:arrow-left-bold$$
+  - Ctl+PgUp
+  - Ctl+PgDn
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+ X
+  - Ctl+X
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -221,7 +221,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - '&mkp MB2'
   - '&mkp MB3'
-  - {t: 'Ctl+ $$mdi:keyboard-return$$', type: enter}
+  - {t: 'Ctl+$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - F9
   - F10
@@ -246,7 +246,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   MOUSE:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -370,7 +370,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   SNIPE:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
